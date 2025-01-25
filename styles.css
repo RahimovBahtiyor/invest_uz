@@ -128,17 +128,32 @@ table .icon {
   background: white;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
   text-align: center;
 }
-
-.categories {
-  flex: 1;
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+.button-group {
+    display: flex;
+    flex-wrap: wrap;  /* Tugmalarni yangi qatorga joylashtiradi, agar kerak bo'lsa */
+    gap: 30px;  /* Tugmalar orasidagi bo'shliq */
 }
+
+.category-btn {
+    padding: 10px 40px;
+    background-color: white;  /* White background */
+    color: #007BFF;  /* blue text */
+    border: 2px solid #007BFF;  /* blue border */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;  /* Smooth transition for both background and border */
+}
+
+.category-btn:hover {
+    background-color: #1E8FE4;  /* Blue background on hover */
+    color: white;  /* White text on hover */
+    border-color: white;  /* White border on hover */
+}
+
+
 
 @media (max-width: 768px) {
   .compare-section, .heatmap {

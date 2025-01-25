@@ -92,13 +92,13 @@ var simplemaps_countrymap_mapdata={
       hover_color: "default",
       url: "default"
     },
-    UZJI: {
-      name: "Jizzakh",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
+     UZJI: {
+       name: "Jizzakh",
+       description: "16 - 18 yoshgacha, \n institut",  // Line break here
+       color: "yellow",
+       hover_color: "dark yellow",
+       url: "default"
+     },
     UZNG: {
       name: "Namangan",
       description: "default",
