@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,95 +8,95 @@
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <img src="images/banner.png" alt="Banner">
-            <h1>INvestUz</h1>
-        </header>
+<div class="container">
+    <header>
+        <img src="images/banner.png" alt="INvestUz Banner">
+        <h1>INvestUz</h1>
+    </header>
 
-        <div class="section compare-section">
-            <div class="widget">
-                <h2>Compare Regions</h2>
-                <select id="regionSelect1">
-                    <option value="andijan">Andijan</option>
-                    <option value="navoi">Navoi</option>
-                </select>
-                <select id="regionSelect2">
-                    <option value="bukhara">Bukhara</option>
-                    <option value="tashkent">Tashkent</option>
-                </select>
-            </div>
-
-            <div class="data-table">
-                <h2>Region Data</h2>
-                <table id="regionDataTable">
-                    <thead>
-                        <tr>
-                            <th>Category</th>
-                            <th><span id="regionName1">Andijan</span></th>
-                            <th><span id="regionName2">Bukhara</span></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><i class="fas fa-users icon"></i> Population</td>
-                            <td id="population1">3,215,546</td>
-                            <td id="population2">1,546,897</td>
-                        </tr>
-                        <tr>
-                            <td><i class="fas fa-globe icon"></i> Foreign Trade</td>
-                            <td id="trade1">$25.45 billion</td>
-                            <td id="trade2">$10.25 billion</td>
-                        </tr>
-                        <tr>
-                            <td><i class="fas fa-users icon"></i> Employment Rate</td>
-                            <td id="employment1">68.7%</td>
-                            <td id="employment2">72.5%</td>
-                        </tr>
-                        <tr>
-                            <td><i class="fas fa-briefcase icon"></i> Business</td>
-                            <td id="employment1">204</td>
-                            <td id="employment2">408</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+    <div class="section compare-section">
+        <div class="widget">
+            <h2>Compare Regions</h2>
+            <select id="regionSelect1">
+                <option value="andijan">Andijan</option>
+                <option value="navoi">Navoi</option>
+            </select>
+            <select id="regionSelect2">
+                <option value="bukhara">Bukhara</option>
+                <option value="tashkent">Tashkent</option>
+            </select>
         </div>
 
-        <div class="section chart-section">
-            <div class="chart-container">
-                <h3>Population Comparison</h3>
-                <canvas id="populationChart"></canvas>
-            </div>
-            <div class="chart-container">
-                <h3>Foreign Trade Comparison</h3>
-                <canvas id="tradeChart"></canvas>
-            </div>
-            <div class="chart-container">
-                <h3>Employment Rate Comparison</h3>
-                <canvas id="employmentChart"></canvas>
+        <div class="data-table">
+            <h2>Region Data</h2>
+            <table id="regionDataTable">
+                <thead>
+                <tr>
+                    <th>Category</th>
+                    <th><span id="regionName1">Andijan</span></th>
+                    <th><span id="regionName2">Bukhara</span></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><i class="fas fa-users icon"></i> Population</td>
+                    <td id="population1">3,215,546</td>
+                    <td id="population2">1,546,897</td>
+                </tr>
+                <tr>
+                    <td><i class="fas fa-globe icon"></i> Foreign Trade</td>
+                    <td id="trade1">$25.45 billion</td>
+                    <td id="trade2">$10.25 billion</td>
+                </tr>
+                <tr>
+                    <td><i class="fas fa-users icon"></i> Employment Rate</td>
+                    <td id="employment1">68.7%</td>
+                    <td id="employment2">72.5%</td>
+                </tr>
+                <tr>
+                    <td><i class="fas fa-briefcase icon"></i> Business</td>
+                    <td id="employment1">204</td>
+                    <td id="employment2">408</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="section chart-section">
+        <div class="chart-container">
+            <h3>Population Comparison</h3>
+            <canvas id="populationChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h3>Foreign Trade Comparison</h3>
+            <canvas id="tradeChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h3>Employment Rate Comparison</h3>
+            <canvas id="employmentChart"></canvas>
+        </div>
+    </div>
+
+    <div class="section heatmap-section">
+        <div class="heatmap">
+            <div id="map" class="map"></div>
+            <div class="categories">
+                <h2>Kategoriyalar</h2>
+                <div class="button-group">
+                    <button class="category-btn">Education</button>
+                    <button class="category-btn">Tourism</button>
+                    <button class="category-btn">Industry</button>
+                    <button class="category-btn">Agro Industry</button>
+                </div>
             </div>
         </div>
-
-        <div class="section heatmap-section">
-            <div class="heatmap">
-                <div id="map" class="map"></div>
-                <div class="categories">
-    <h2>Kategoriyalar</h2>
-    <div class="button-group">
-        <button class="category-btn">Education</button>
-        <button class="category-btn">Tourism</button>
-        <button class="category-btn">Industry</button>
-        <button class="category-btn">Agro Industry</button>
     </div>
 </div>
-            </div>
-        </div>
-    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="scripts.js"></script>
-    <script type="text/javascript" src="uzbmap/mapdata.js"></script>		
-    <script  type="text/javascript" src="uzbmap/countrymap.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.0.1"></script>
+<script src="scripts.js"></script>
+<script type="text/javascript" src="uzbmap/mapdata.js"></script>
+<script type="text/javascript" src="uzbmap/countrymap.js"></script>
 </body>
 </html>
