@@ -73,100 +73,100 @@ var simplemaps_countrymap_mapdata={
   state_specific: {
     UZAN: {
       name: "Andijon",
-      description: "default",
-      color: "default",
-      hover_color: "default",
+      description: "16 - 18 yoshgacha: 10000 <br> institut: 6",
+      color: "Green",
+      hover_color: "Green",
       url: "default"
     },
     UZBU: {
       name: "Bukhoro",
-      description: "default",
-      color: "default",
-      hover_color: "default",
+      description: "16 - 18 yoshgacha: 10000 <br> institut: 6",
+      color: "#FF0000",
+      hover_color: "#FF0000",
       url: "default"
     },
     UZFA: {
       name: "Ferghana",
-      description: "default",
-      color: "default",
-      hover_color: "default",
+      description: "16 - 18 yoshgacha: 10000 <br> institut: 6",
+      color: "Green",
+      hover_color: "Green",
       url: "default"
     },
      UZJI: {
        name: "Jizzakh",
-       description: "16 - 18 yoshgacha, \n institut",  // Line break here
+       description: "16 - 18 yoshgacha: 10000 <br> institut: 6", // Line break here
        color: "yellow",
        hover_color: "dark yellow",
        url: "default"
      },
     UZNG: {
       name: "Namangan",
-      description: "default",
-      color: "default",
-      hover_color: "default",
+      description: "16 - 18 yoshgacha: 10000 <br> institut: 6",
+      color: "Green",
+      hover_color: "90EE90",
       url: "default"
     },
     UZNW: {
       name: "Navoi",
-      description: "default",
-      color: "default",
-      hover_color: "default",
+      description: "16 - 18 yoshgacha: 10000 <br> institut: 6",
+      color: "#FF0000",
+      hover_color: "#FF0000",
       url: "default"
     },
     UZQA: {
       name: "Kashkadarya",
-      description: "default",
-      color: "default",
-      hover_color: "default",
+      description: "16 - 18 yoshgacha: 10000 <br> institut: 6",
+      color: "#8B0000",
+      hover_color: "#FF0000",
       url: "default"
     },
     UZQR: {
       name: "Karakalpakstan",
-      description: "default",
-      color: "default",
-      hover_color: "default",
+      description: "16 - 18 yoshgacha: 10000 <br> institut: 6",
+      color: "Light Red",
+      hover_color: "Light Red",
       url: "default"
     },
     UZSA: {
       name: "Samarkand",
-      description: "default",
-      color: "default",
-      hover_color: "default",
+      description: "16 - 18 yoshgacha: 10000 <br> institut: 6",
+      color: "90EE90",
+      hover_color: "90EE90",
       url: "default"
     },
     UZSI: {
       name: "Sirdaryo",
-      description: "default",
-      color: "default",
-      hover_color: "default",
+      description: "16 - 18 yoshgacha: 10000 <br> institut: 6",
+      color: "yellow",
+      hover_color: "yellow",
       url: "default"
     },
     UZSU: {
       name: "Surkhandarya",
-      description: "default",
-      color: "default",
-      hover_color: "default",
+      description: "16 - 18 yoshgacha: 10000 <br> institut: 6",
+      color: "Light Red",
+      hover_color: "Light Red",
       url: "default"
     },
     UZTK: {
       name: "Tashkent",
-      description: "default",
-      color: "default",
-      hover_color: "default",
+      description: "16 - 18 yoshgacha: 10000 <br> institut: 6",
+      color: "Green",
+      hover_color: "Green",
       url: "default"
     },
     UZTO: {
       name: "Tashkent",
-      description: "default",
-      color: "default",
-      hover_color: "default",
+      description: "16 - 18 yoshgacha: 10000 <br> institut: 6",
+      color: "Green",
+      hover_color: "Green",
       url: "default"
     },
     UZXO: {
       name: "Khorezm",
       description: "default",
-      color: "default",
-      hover_color: "default",
+      color: "Light Red",
+      hover_color: "Light Red",
       url: "default"
     }
   },
